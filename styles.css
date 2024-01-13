@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+
+nav ul li{
+    padding: 0 12px;
+}
+
+* {
+    margin: 0 7px;
+    padding: 0;
+    box-sizing: border-box;
+}
+.brand img{
+    width: 89px;
+    padding: 0px;
+   left:0px;
+   top:1px;
+   
+}
+
+.relogo img{
+    width: 350px;
+    padding: 0px;
+   left:0px;
+   top:1px;
+   
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #333;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+section {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+.city{
+    align-items: center;
+}
+.cities{
+    padding: 19px 19px;
+    position: relative;
+    margin: 43px;
+    top:20px;
+}
+.look{
+    padding: 0px;
+    position: absolute;
+}
+.sevices{
+    text-align: center;
+
+}
+.box {
+    border: 4px solid black;
+    background-color: grey;
+    margin: 4px 0px;
+    padding: 23px;
+    width: 33%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+/* Auto change images */
+.autochange{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+}
+.Section_top{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: url(banners/home-slide-6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    animation: change 10s infinite ease-in-out;
+}
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+
+}
+.content h1{
+    color: #fff;
+    font-size: 60px;
+    letter-spacing: 15px;
+}
+.content h1 span{
+    color: #111;
+}
+.content a{
+    background: #85c1ee;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.content a:hover{
+    background: #034e88;
+    color: #fff;
+}
+@keyframes change{
+    0%
+    {
+        background-image: url(banners/home-slide-1.jpg);
+    }
+    20%
+    {
+        background-image: url(banners/home-slide-8.jpg);
+    }
+    40%
+    {
+        background-image: url(banners/home-slide-9.jpg);
+    }
+    60%
+    {
+        background-image: url(banners/home-slide-2.jpg);
+    }
+    80%
+    {
+        background-image: url(banners/home-slide-6.jpg);
+    }
+    100%
+    {
+        background-image: url(banners/home-slide-1.jpg);
+    }
+}
+
+.box1{
+    border: 4px solid black;
+    background-color: grey;
+    margin: 4px 150px;
+    padding: 100px;
+    width: 80%;
+    box-sizing: border-box;
+    display: inline-block;
+    
+}
+.relogo2 img{
+   margin: 4px 250px;
+   /* width: 20%; */
+   height: auto;
+}  
+#ourserveics li{
+    display: flexbox;
+}
+.box3 {
+    border: 4px solid white;
+    background-color: white;
+    margin: 3px 38pxpx;
+    padding: 80px;
+    width: 20%;
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    left: 190px;
+}
+.box4{
+    border: 4px solid white;
+    background-color: white;
+    margin: 3px 0px;
+    padding: 40px;
+    width: 20%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+ .hero{
+    height: 80vh;
+    width: 100%;
+    background-image: url(Car_Animation_Img/sky.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow-x: hidden;
+    top:0px;
+    bottom: 500px;
+    
+} 
+
+.highway{
+    height: 90px;
+    width: 500%;
+    display:block;
+    background-image: url(Car_Animation_Img/road.jpg);
+    position: absolute; 
+    bottom: 0%;
+    top: 760px;
+    left: 0%;
+    right: 0%;
+    z-index: 1;
+    background-repeat: repeat-x;
+    animation: highway 5s linear infinite;
+}
+@keyframes highway
+{
+    100%{
+        transform: translateX(-3400px);
+    }
+}
+  .city{
+    height: 350px;
+    width: 500%;
+    display:block;
+    background-image: url(Car_Animation_Img/city.png);
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    z-index: 1;
+    background-repeat: repeat-x;
+    animation: city 5s linear infinite;
+    position:absolute;
+    top:215px; 
+    margin: 295px;
+    
+}
+@keyframes city{
+    100%{
+        transform: translateX(-1400px);
+    }
+} 
+
+
+.trs{
+    position: relative;
+    top: 0px;
+}
+.truck{
+    width: 400px;
+    left: 0%;
+    bottom: 0%;
+    top: 610px;
+    transform: translateX(-50%);
+    position: absolute; 
+    z-index: 2;
+}
+.truck img{
+    width: 100%;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    margin: 0px 700px;
+    animation: truck 1s linear infinite;
+    position:relative;
+    top:19px;
+    
+}
+@keyframes truck{
+    100%{
+        transform: translateY(5px);
+    }
+    50%{
+        transform: translateY(3px);
+    }
+    0%{
+        transform: translateY(5px);
+    }
+}
+
+
+/* Footer Style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+.foot{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+    position: relative;
+    top:0px;
+
+
+
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+content: '';
+position: absolute;
+left: 100px;
+bottom: -10px;
+background-color: #e91e63;
+height: 3px;
+box-sizing: border-box;
+width: 60px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+
+.spn{
+    color: yellow;
+    font-size: larger;
+    font-style: oblique;
+}
+
+/* syle for login form */
